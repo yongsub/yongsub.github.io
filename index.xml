@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yongsub Lim</title>
-    <link>yongsub.me/</link>
+    <link>/</link>
     <description>Recent content on Yongsub Lim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016-19 &lt;a href=&#39;https://github.com/siegerts/hugo-theme-basic&#39;&gt;Hugo Theme Basic&lt;/a&gt;. Made by &lt;a href=&#39;https://twitter.com/siegerts&#39;&gt;@siegerts&lt;/a&gt;.</copyright>
     <lastBuildDate>Wed, 10 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="yongsub.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Build Your Own Blog with Hugo - Local Hosting</title>
-      <link>yongsub.me/posts/hugo-quickstart/</link>
+      <link>/posts/hugo-quickstart/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>yongsub.me/posts/hugo-quickstart/</guid>
+      <guid>/posts/hugo-quickstart/</guid>
       <description>Hugo is a framework to build websites, and lots of templates are provided for various purposes. This blog is also built on Hugo with the Basic theme by @siegerts, and based on my experience, I&amp;rsquo;m introducing how to build a blog with Hugo on mac. For a really quick start, you can visit the official site.
 Install Hugo The Hugo website lists up a couple of ways to install Hugo on mac.</description>
     </item>
     
     <item>
       <title>WHO I AM</title>
-      <link>yongsub.me/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 -0700</pubDate>
       
-      <guid>yongsub.me/about/</guid>
+      <guid>/about/</guid>
       <description>I&amp;rsquo;m Yongsub Lim who is a co-founder &amp;amp; principal data scientist at MakinaRocks, an industrial AI startup to improve the productivity of industry by latest AI techniques. Currently, I&amp;rsquo;m interested in machine learning and advanced analytics specialized for data generated from manufacturing process, and its applications including predictive maintenance, product quality control, and process optimization.
 CAREER  Founder &amp;amp; Principal Data Scientist  MakinaRocks May 2018 - present  Data Scientist  Data Analytics CoE at SK Telecom Feb 2017 - May, 2018  Postdoctoral Researcher  Computer Science and Engineering at Seoul National University Sep 2015 - Jun 2016  Doctor of Philosophy  Computer Science from KAIST Feb 2011 - Aug 2015   LINKS Curriculum Vitae / LinkedIn / Google Scholar / DBLP / Publications</description>
     </item>
     
     <item>
       <title>PUBLICATIONS</title>
-      <link>yongsub.me/publications/</link>
+      <link>/publications/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>yongsub.me/publications/</guid>
+      <guid>/publications/</guid>
       <description>Minsoo Jung, Yongsub Lim, Sumin Lee, and U Kang
 FURL: Fixed-memory and Uncertainty Reducing Local Triangle Counting for Multigraph Streams
 Data Mining and Knowledge Discovery (DMKD), 2019 (to appear)
