@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html
+  class=""
+  lang="en-us"
+  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
+>
+  <head>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="description" content="" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<meta name="keywords" content="blog,
+hugo,
+basic theme,
+">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content="" />
+<meta property="og:title" content="Build Your Own Blog with Hugo - Local Hosting" />
+<meta property="og:site_name" content="Yongsub Lim" />
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="localhost:1313/posts/hugo-quickstart/" />
+<meta property="og:locale" content="en-us" />
+<meta property="article:published_time" content="2019-04-10
+" /> <meta property="article:modified_time" content="2019-04-10
+" />
+
+
+<meta property="article:tag" content="blog" />
+<meta property="article:tag" content="hugo" />
+<meta property="article:tag" content="basic theme" />
+
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@siegerts" />
+<meta name="twitter:creator" content="@siegerts" />
+<meta
+  name="twitter:title"
+  content="Build Your Own Blog with Hugo - Local Hosting | Yongsub Lim"
+/>
+<meta
+  name="twitter:description"
+  content="Hugo is a framework to build websites, and lots of templates are provided for various purposes. This blog is also built on Hugo with the Basic theme by @siegerts, and based on my experience, I&rsquo;m introducing how to build a blog with Hugo on mac. For a really quick start, you can visit the official site.
+Install Hugo The Hugo website lists up a couple of ways to install Hugo on mac.|"
+/>
+<meta name="twitter:image:src" content="" />
+<meta name="twitter:domain" content="localhost:1313/posts/hugo-quickstart/" />
+
+
+
+    <title>Build Your Own Blog with Hugo - Local Hosting</title>
+    <link rel="canonical" href="#ZgotmplZ" />
+
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/tachyons@4.11.1/css/tachyons.min.css"
+/>
+
+<link rel="stylesheet" href="localhost:1313css/style.css" />
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/highlightjs@9.12.0/styles/github-gist.css"
+/>
+
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-XXXXXXXXX-X', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  </head>
+
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+<body
+  lang="en-us"
+  class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns"
+  itemscope
+  itemtype="http://schema.org/Article"
+>
+  
+  <span class="b">/ </span>
+  <a
+    href="localhost:1313"
+    class="b bb bw1 pb1 no-underline black"
+    >Yongsub Lim</a
+  >
+
+  <section id="main" class="mt5">
+    <h1 itemprop="name" id="title">Build Your Own Blog with Hugo - Local Hosting</h1>
+
+    <article itemprop="articleBody" id="content" class="w-90 lh-copy">
+      
+
+<p><a href="https://gohugo.io">Hugo</a> is a framework to build websites, and lots of templates are provided for various purposes.
+This blog is also built on Hugo with the <a href="https://themes.gohugo.io/hugo-theme-basic/">Basic theme</a> by @siegerts, and
+based on my experience, I&rsquo;m introducing how to build a blog with Hugo on mac.
+For a really quick start, you can visit <a href="https://gohugo.io/getting-started/quick-start/">the official site</a>.</p>
+
+<h2 id="install-hugo">Install Hugo</h2>
+
+<p><a href="https://gohugo.io/getting-started/installing/">The Hugo website</a> lists up a couple of ways to install Hugo on mac.
+Among them, using Homebrew is the simplest, and in my case, there was no problem.</p>
+
+<pre><code>brew install hugo
+</code></pre>
+
+<p>For verification, check</p>
+
+<pre><code>hugo version  # My output: Hugo Static Site Generator v0.54.0/extended darwin/amd64 BuildDate: unknown
+</code></pre>
+
+<h2 id="make-root-directory-of-your-blog">Make Root Directory of Your Blog</h2>
+
+<p>Let&rsquo;s make a new directory <code>&lt;ROOT&gt;</code> which becomes the root directory of your blog.
+Move to any directory you want, and type</p>
+
+<pre><code>mkdir &lt;ROOT&gt;
+cd &lt;ROOT&gt;
+</code></pre>
+
+<p>You need two directories to initially deploy a blog: theme and content.</p>
+
+<pre><code>mkdir theme
+mkdir content
+</code></pre>
+
+<h2 id="setup-theme-you-like">Setup Theme You Like</h2>
+
+<p>Move to the theme directory,</p>
+
+<pre><code>cd theme
+</code></pre>
+
+<p>You can look at <a href="https://themes.gohugo.io">this site</a> to find a Hugo theme you like.
+In this example, let&rsquo;s take the <a href="https://themes.gohugo.io/hugo-theme-basic/">basic theme</a> which is the theme of this blog.
+Following the instruction in <a href="https://themes.gohugo.io/hugo-theme-basic/">the page</a>, download the theme:</p>
+
+<pre><code>git clone https://github.com/siegerts/hugo-theme-basic.git
+</code></pre>
+
+<p>To apply the theme appropriately to your blog, you need to copy the configuration file of the basic theme to your root.</p>
+
+<pre><code>cp config.toml ../
+</code></pre>
+
+<p>Now, the theme is set for your blog.</p>
+
+<h2 id="create-your-contents">Create Your Contents</h2>
+
+<p>Move to <code>&lt;ROOT&gt;</code>.</p>
+
+<pre><code>cd ..
+</code></pre>
+
+<p>You can create <code>.md</code> files inside two directories: <code>&lt;ROOT&gt;/content/</code> and <code>&lt;ROOT&gt;/content/post</code>.
+If you put a markdown file in <code>&lt;ROOT&gt;/content/</code>, you can see its link in the main page.
+As an example, let&rsquo;s put <code>about.md</code> at <code>&lt;ROOT&gt;/content/</code> with the following texts:</p>
+
+<pre><code>+++
+title = &quot;Self-introduction&quot;
+date = &quot;2019-04-01&quot;
+
+## About Me
+I am a cat lover.
++++
+</code></pre>
+
+<p>Similarly, let&rsquo;s put <code>first-post.md</code> at <code>&lt;ROOT&gt;/content/post/</code> with the following texts:</p>
+
+<pre><code>+++
+date = &quot;2019-04-01&quot;
+author = &quot;Cat Lover&quot;
+title = &quot;My First Kitty&quot;
+
+I became a cat mom today.
++++
+</code></pre>
+
+<p>Now, your blog has two pages: about and one blog post.
+Let&rsquo;s run a blog server in your local environment, and see how blog looks like.</p>
+
+<h2 id="run-hugo-server">Run Hugo Server</h2>
+
+<p>Open a terminal, and move to <code>&lt;ROOT&gt;</code>. Run the following command:</p>
+
+<pre><code>hugo server
+</code></pre>
+
+<p>Open a browser, and enter the address of either <code>localhost:1313</code> or <code>127.0.0.1:1313</code>.
+You will see the following page.
+The <em>about</em> menu is linked to <code>about.md</code>.
+If you click <em>post</em>, we can see the title of your first post: &ldquo;My First Kitty&rdquo;.
+Clicking &ldquo;My First Kitty&rdquo;, you will see the page of <code>first-post.md</code>.</p>
+
+<p>To add more pages, you need to insert or modify <code>[[params.menu]]</code> in <code>&lt;ROOT&gt;/config.toml</code> as described below.</p>
+
+<h2 id="basic-customization">Basic Customization</h2>
+
+<h3 id="blog-title">Blog Title</h3>
+
+<p>Open <code>&lt;ROOT&gt;/config.toml</code>, and change the value of key <code>title</code>.</p>
+
+<h3 id="blog-menu">Blog Menu</h3>
+
+<p>Find <code>[[params.menu]]</code>. For each <code>[[params.menu]]</code> item, <code>name</code> means a name appearing in the main page, and <code>url</code> means an address where you are moved by clicking the name. Order <code>[[params.menu]]</code> records as the same order you want to display in the main page.</p>
+
+    </article>
+  </section>
+
+  <footer>
+    <div>
+      <p class="f6 gray mt6 lh-copy">
+        © 2016-19 <a href='https://github.com/siegerts/hugo-theme-basic'>Hugo Theme Basic</a>. Made by <a href='https://twitter.com/siegerts'>@siegerts</a>.
+      </p>
+    </div>
+  </footer>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+
+
+  </body>
+</html>
