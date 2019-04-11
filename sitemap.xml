@@ -3,69 +3,69 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yongsub.github.io/posts/hugo-quickstart/</loc>
+    <loc>yongsub.me/posts/hugo-quickstart/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yongsub.github.io/about/</loc>
+    <loc>yongsub.me/about/</loc>
     <lastmod>2019-04-08T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yongsub.github.io/publications/</loc>
+    <loc>yongsub.me/publications/</loc>
     <lastmod>2019-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yongsub.github.io/tags/basic-theme/</loc>
+    <loc>yongsub.me/tags/basic-theme/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yongsub.github.io/tags/blog/</loc>
+    <loc>yongsub.me/tags/blog/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yongsub.github.io/series/blogging/</loc>
+    <loc>yongsub.me/series/blogging/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yongsub.github.io/categories/</loc>
+    <loc>yongsub.me/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yongsub.github.io/tags/hugo/</loc>
+    <loc>yongsub.me/tags/hugo/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yongsub.github.io/posts/</loc>
+    <loc>yongsub.me/posts/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yongsub.github.io/series/</loc>
+    <loc>yongsub.me/series/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yongsub.github.io/tags/</loc>
+    <loc>yongsub.me/tags/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yongsub.github.io/</loc>
+    <loc>yongsub.me/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
