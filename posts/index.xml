@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016-19 &lt;a href=&#39;https://github.com/siegerts/hugo-theme-basic&#39;&gt;Hugo Theme Basic&lt;/a&gt;. Made by &lt;a href=&#39;https://twitter.com/siegerts&#39;&gt;@siegerts&lt;/a&gt;.</copyright>
-    <lastBuildDate>Wed, 10 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Build Your Own Blog with Hugo - Basic Customization &amp; Tips</title>
+      <link>/posts/hugo-tips/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hugo-tips/</guid>
+      <description>Changing Blog Title Open &amp;lt;ROOT&amp;gt;/config.toml, and change the value of key title.
+Designing Blog Menu Find [[params.menu]]. For each [[params.menu]] item, name means a name appearing in the main page, and url means an address where you are moved by clicking the name. Order [[params.menu]] records as the same order you want to display in the main page.
+Excluding Draft Pages When Deployed You can designate a page as a draft, which will be excluded when you deploy your blog.</description>
+    </item>
     
     <item>
       <title>Build Your Own Blog with Hugo - Local Hosting</title>

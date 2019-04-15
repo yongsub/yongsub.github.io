@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016-19 &lt;a href=&#39;https://github.com/siegerts/hugo-theme-basic&#39;&gt;Hugo Theme Basic&lt;/a&gt;. Made by &lt;a href=&#39;https://twitter.com/siegerts&#39;&gt;@siegerts&lt;/a&gt;.</copyright>
-    <lastBuildDate>Wed, 10 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Blogging</title>
       <link>/series/blogging/</link>
-      <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/series/blogging/</guid>
       <description></description>

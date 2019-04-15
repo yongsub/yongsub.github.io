@@ -218,10 +218,10 @@ As an example, let&rsquo;s put <code>about.md</code> at <code>&lt;ROOT&gt;/conte
 <pre><code>+++
 title = &quot;Self-introduction&quot;
 date = &quot;2019-04-01&quot;
++++
 
 ## About Me
 I am a cat lover.
-+++
 </code></pre>
 
 <p>Similarly, let&rsquo;s put <code>first-post.md</code> at <code>&lt;ROOT&gt;/content/post/</code> with the following texts:</p>
@@ -230,13 +230,13 @@ I am a cat lover.
 date = &quot;2019-04-01&quot;
 author = &quot;Cat Lover&quot;
 title = &quot;My First Kitty&quot;
++++
 
 I became a cat mom today.
-+++
 </code></pre>
 
-<p>Now, your blog has two pages: about and one blog post.
-Let&rsquo;s run a blog server in your local environment, and see how blog looks like.</p>
+<p>Now, your blog has two pages: about titled <em>Self-introduction</em> and one blog post titled <em>My First Kitty</em>.
+Let&rsquo;s run a blog server in your local environment, and see how your blog looks like.</p>
 
 <h2 id="run-hugo-server">Run Hugo Server</h2>
 
@@ -247,21 +247,20 @@ Let&rsquo;s run a blog server in your local environment, and see how blog looks 
 
 <p>Open a browser, and enter the address of either <code>localhost:1313</code> or <code>127.0.0.1:1313</code>.
 You will see the following page.
-The <em>about</em> menu is linked to <code>about.md</code>.
-If you click <em>post</em>, we can see the title of your first post: &ldquo;My First Kitty&rdquo;.
-Clicking &ldquo;My First Kitty&rdquo;, you will see the page of <code>first-post.md</code>.</p>
+The <em>about</em> menu is linked to <code>about.md</code>.</p>
+
+<blockquote>
+<p><img src="/resources/figures/Self-introduction.pdf" alt="About: Self-introduction" /></p>
+</blockquote>
+
+<p>If you click <em>post</em>, we can see the title of your first post: <em>My First Kitty</em>.
+Clicking <em>My First Kitty</em>, you will see the page of <code>first-post.md</code>.</p>
+
+<blockquote>
+<p><img src="/resources/figures/My First Kitty.pdf" alt="The firsr post: My First Kitty" /></p>
+</blockquote>
 
 <p>To add more pages, you need to insert or modify <code>[[params.menu]]</code> in <code>&lt;ROOT&gt;/config.toml</code> as described below.</p>
-
-<h2 id="basic-customization">Basic Customization</h2>
-
-<h3 id="blog-title">Blog Title</h3>
-
-<p>Open <code>&lt;ROOT&gt;/config.toml</code>, and change the value of key <code>title</code>.</p>
-
-<h3 id="blog-menu">Blog Menu</h3>
-
-<p>Find <code>[[params.menu]]</code>. For each <code>[[params.menu]]</code> item, <code>name</code> means a name appearing in the main page, and <code>url</code> means an address where you are moved by clicking the name. Order <code>[[params.menu]]</code> records as the same order you want to display in the main page.</p>
 
     </article>
   </section>

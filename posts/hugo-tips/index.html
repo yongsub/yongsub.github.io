@@ -14,22 +14,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
-<meta name="keywords" content="">
+<meta name="keywords" content="blog,
+hugo,
+basic theme,
+">
 
 
 <meta property="og:type" content="article" />
 <meta property="og:description" content="" />
-<meta property="og:title" content="Hugo" />
+<meta property="og:title" content="Build Your Own Blog with Hugo - Basic Customization &amp; Tips" />
 <meta property="og:site_name" content="Yongsub Lim" />
 <meta property="og:image" content="" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="" />
 <meta property="og:image:height" content="" />
-<meta property="og:url" content="/tags/hugo/" />
+<meta property="og:url" content="/posts/hugo-tips/" />
 <meta property="og:locale" content="en-us" />
 <meta property="article:published_time" content="2019-04-15
 " /> <meta property="article:modified_time" content="2019-04-15
 " />
+
+
+<meta property="article:tag" content="blog" />
+<meta property="article:tag" content="hugo" />
+<meta property="article:tag" content="basic theme" />
 
 
 
@@ -39,27 +47,22 @@
 <meta name="twitter:creator" content="@siegerts" />
 <meta
   name="twitter:title"
-  content="Hugo | Yongsub Lim"
+  content="Build Your Own Blog with Hugo - Basic Customization &amp; Tips | Yongsub Lim"
 />
 <meta
   name="twitter:description"
-  content="|"
+  content="Changing Blog Title Open &lt;ROOT&gt;/config.toml, and change the value of key title.
+Designing Blog Menu Find [[params.menu]]. For each [[params.menu]] item, name means a name appearing in the main page, and url means an address where you are moved by clicking the name. Order [[params.menu]] records as the same order you want to display in the main page.
+Excluding Draft Pages When Deployed You can designate a page as a draft, which will be excluded when you deploy your blog.|"
 />
 <meta name="twitter:image:src" content="" />
-<meta name="twitter:domain" content="/tags/hugo/" />
+<meta name="twitter:domain" content="/posts/hugo-tips/" />
 
 
 
-    <title>Hugo</title>
-    <link rel="canonical" href="/tags/hugo/" />
+    <title>Build Your Own Blog with Hugo - Basic Customization &amp; Tips</title>
+    <link rel="canonical" href="/posts/hugo-tips/" />
 
-
-    <link
-      href="/tags/hugo/index.xml"
-      rel="alternate"
-      type="application/rss+xml"
-      title="Hugo"
-    />
 
     <link
   rel="stylesheet"
@@ -131,52 +134,63 @@ if (!doNotTrack) {
 <body
   lang="en-us"
   class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns"
+  itemscope
+  itemtype="http://schema.org/Article"
 >
+  
   <span class="b">/ </span>
   <a
     href="/"
-    class="b bw1 bb pb1 no-underline black"
+    class="b bb bw1 pb1 no-underline black"
     >Yongsub Lim</a
   >
-  <span class="b"> / </span>
-  <a href="/tags" class="b bw1 bb pb1 no-underline black">tags</a>
-  <span class="b"> / </span>
-  
-  <span class="b pb1 no-underline black">hugo</span>
 
   <section id="main" class="mt5">
-    <div>
-      <ul id="list" class="pl0">
-        
-        
-        <li class="list pl0 lh-copy">
-          <a
-            class="f3 b dib black no-underline"
-            href="/posts/hugo-tips/"
-            >Build Your Own Blog with Hugo - Basic Customization &amp; Tips</a
-          >
-          <span
-            class="f6 gray db dib-ns"
-            >April 15, 2019</span
-          >
-        </li>
-        
-        
-        <li class="list pl0 lh-copy">
-          <a
-            class="f3 b dib black no-underline"
-            href="/posts/hugo-quickstart/"
-            >Build Your Own Blog with Hugo - Local Hosting</a
-          >
-          <span
-            class="f6 gray db dib-ns"
-            >April 10, 2019</span
-          >
-        </li>
-        
-        
-      </ul>
-    </div>
+    <h1 itemprop="name" id="title">Build Your Own Blog with Hugo - Basic Customization &amp; Tips</h1>
+
+    <article itemprop="articleBody" id="content" class="w-90 lh-copy">
+      
+
+<h2 id="changing-blog-title">Changing Blog Title</h2>
+
+<p>Open <code>&lt;ROOT&gt;/config.toml</code>, and change the value of key <code>title</code>.</p>
+
+<h2 id="designing-blog-menu">Designing Blog Menu</h2>
+
+<p>Find <code>[[params.menu]]</code>. For each <code>[[params.menu]]</code> item, <code>name</code> means a name appearing in the main page, and <code>url</code> means an address where you are moved by clicking the name. Order <code>[[params.menu]]</code> records as the same order you want to display in the main page.</p>
+
+<h2 id="excluding-draft-pages-when-deployed">Excluding Draft Pages When Deployed</h2>
+
+<p>You can designate a page as a <em>draft</em>, which will be excluded when you deploy your blog.
+This is especially useful when you have some pages in progress, not ready to publish, or want to exclude some existing pages temporarily.
+To make a page a draft, you can just add the following line to the front matter of a page:</p>
+
+<pre><code>draft = true
+</code></pre>
+
+<p>All pages with this line will not appear in your blog when deployed.</p>
+
+<h2 id="managing-resources">Managing Resources</h2>
+
+<p>You may have some figures and files to show in or be linked from your pages.
+ To store such resources, you can make any folder in <code>&lt;ROOT&gt;/content</code>, and
+ <code>&lt;ROOT&gt;/content/resources</code> would be a good choice.
+ In your page, you can indicate <code>&lt;ROOT&gt;/content/resources/abc.png</code> by <code>/resources/abc.png</code>.
+ For instance, you can insert the following line in you <code>.md</code> file to display <code>cat.png</code></p>
+
+<pre><code> ![My Cat](/resources/cat.png)
+</code></pre>
+
+<p>Some resource files can be coupled with draft pages which you don&rsquo;t want to publish yet.
+ To achieve a similar effect to <code>draft = true</code>, you can add the following line at the first line of <code>&lt;ROOT&gt;/config.toml</code>:</p>
+
+<pre><code> ignoreFiles = [&quot;resources/_first_dir&quot;, &quot;resources/_second_dir&quot;].
+</code></pre>
+
+<p>This line will exclude two folders <code>resources/_first_dir</code> and <code>resources/_second_dir</code> when your blog is deployed.
+ The leading underscore of the folder names are not necessary, but would help you prevent to mistakenly put files into publishing folders.</p>
+
+    </article>
   </section>
 
   <footer>
