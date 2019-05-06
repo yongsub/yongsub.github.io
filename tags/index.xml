@@ -49,6 +49,15 @@
     </item>
     
     <item>
+      <title>Blonde Ale</title>
+      <link>/tags/blonde-ale/</link>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blonde-ale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Firestone</title>
       <link>/tags/firestone/</link>
       <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
@@ -60,7 +69,7 @@
     <item>
       <title>Game of Thrones</title>
       <link>/tags/game-of-thrones/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/game-of-thrones/</guid>
       <description></description>
@@ -87,7 +96,7 @@
     <item>
       <title>Kriek Ale</title>
       <link>/tags/kriek-ale/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/kriek-ale/</guid>
       <description></description>
@@ -96,7 +105,7 @@
     <item>
       <title>Mother of Dragons</title>
       <link>/tags/mother-of-dragons/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/mother-of-dragons/</guid>
       <description></description>
@@ -105,7 +114,7 @@
     <item>
       <title>Ommegang</title>
       <link>/tags/ommegang/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/ommegang/</guid>
       <description></description>
@@ -121,6 +130,15 @@
     </item>
     
     <item>
+      <title>Queen of the Seven Kingdoms</title>
+      <link>/tags/queen-of-the-seven-kingdoms/</link>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/queen-of-the-seven-kingdoms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Shoes</title>
       <link>/tags/shoes/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
@@ -132,9 +150,18 @@
     <item>
       <title>Smoked Porter</title>
       <link>/tags/smoked-porter/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/smoked-porter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sour Ale</title>
+      <link>/tags/sour-ale/</link>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sour-ale/</guid>
       <description></description>
     </item>
     
