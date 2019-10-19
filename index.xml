@@ -24,7 +24,7 @@ Barley Wine Ale
 Firestone Walker Brewing Company
  11.3% ABV 34 IBU  평점: 4.09 / 5 (ratebeer) | 4.52 / 5 (beeradvocate) | 4.33 / 5 (untapped)
 가격: 약 \$10
-Parabola (2019)보다 평점은 약간 낮은데, 내 입맛에는 이게 훨씬 맛있다. Parabola보다 가볍다. Parabola가 위스키, 와인, 스타우트가 다 애매하게 느껴졌다면, §ucaba는 산뜻한 winy red ale 같다. 결국 여러가지 느낌이 나는건데, 차이는 내가 느끼기에 §ucaba가 더 조화롭다 (똑같이 비벼도 맛없는 비빔밥이 있고 맛있는 비빔밥이 있다).</description>
+Parabola (2019)보다 평점은 약간 낮은데, 내 입맛에는 이게 훨씬 맛있다. Parabola보다 가볍다. Parabola가 위스키, 와인, 스타우트가 다 애매하게 느껴졌다면, §ucaba는 산뜻한 winy red ale이다. 결국 여러가지 느낌이 나는건데, 차이는 내가 느끼기에 §ucaba가 더 조화롭다 (똑같이 비벼도 맛없는 비빔밥이 있고 맛있는 비빔밥이 있다).</description>
     </item>
     
     <item>
@@ -120,15 +120,14 @@ CAREER  Founder &amp;amp; Principal Data Scientist  MakinaRocks May 2018 - prese
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/publications/</guid>
-      <description>Minsoo Jung, Yongsub Lim, Sumin Lee, and U Kang
-FURL: Fixed-memory and Uncertainty Reducing Local Triangle Counting for Multigraph Streams
-Data Mining and Knowledge Discovery (DMKD), 2019 (to appear)
-[pdf] [bib]
- Yongsub Lim, Minsoo Jung, and U Kang
-Memory-efficient and accurate sampling for counting local triangles in graph streams: from simple to multigraphs
-ACM Transactions on Knowledge Discovery from Data (TKDD), 2018
-[pdf] [bib]
- Andre S. Yoon, Taehoon Lee, Yongsub Lim, Deokwoo Jung, Philgyun Kang, Dongwon Kim, Keuntae Park, and Yongjin Choi</description>
+      <description>Yongsub Lim, Injae Yu, Dongmin Seo, U Kang, and Lee Sael
+PS-MCL: Parallel shotgun coarsened Markov clustering of protein interaction networks
+BMC Bioinformatics, 2019
+[pdf] [bib] Minsoo Jung, Yongsub Lim, Sumin Lee, and U Kang
+FURL: Fixed-memory and uncertainty reducing local triangle counting for multigraph streams
+Data Mining and Knowledge Discovery (DMKD), 2019
+[pdf] [bib] [publisher&amp;rsquo;s link] Yongsub Lim, Minsoo Jung, and U Kang
+Memory-efficient and accurate sampling for counting local triangles in graph streams: from simple to multigraphs</description>
     </item>
     
   </channel>
